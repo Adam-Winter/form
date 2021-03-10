@@ -85,3 +85,7 @@ fieldset {
 .label {
     margin: 1% 0% 0% 0%;
 }
+
+[type="radio"], [type="checkbox"] {
+    margin: 7px;
+}
