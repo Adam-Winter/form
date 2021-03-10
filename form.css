@@ -1,0 +1,68 @@
+#main {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: rgb(38, 8, 63);
+    color: white;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1% 25% 1% 25%;
+    padding: 2% 5% 2% 5%;
+    background-color:rgba(26, 5, 43, 0.87);
+    border-radius: 5px;
+}
+
+div {
+    width: 100%;
+    margin: 4% 0% 4% 0%;
+    text-align: left;
+}
+
+input, textarea {
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0px;
+    background-color: white;
+    color: rgba(0, 0, 0, 1);
+}
+
+select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0px;
+    background-color: white;
+    color: rgba(0, 0, 0, 1);
+}
+
+::placeholder {
+    color: rgba(30, 30, 30, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+
+#submit {
+    padding: 3px;
+    border: 0px;
+    background-color: rgba(10, 200, 30, 0.8);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+.text-input, textarea {
+    width: 100%;
+}
+
+.label {
+    margin: 0.5px;
+}

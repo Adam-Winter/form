@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="form.css"/>
+    </head>
+    <body id="main">
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description"><em>Thank you for taking your time to fill out this form!</em></p>
+        </header>
+        <form id="survey-form">
+            <div>
+                <div class="label"><label for="name">Name *</label></div><br>
+                <input class="text-input" type="text" placeholder="Enter full name" required><br>
+            </div>
+            <div>
+                <div class="label"><label for="email">Email *</label></div><br>
+                <input class="text-input" type="email" placeholder="Enter your Email" required>
+            </div>
+            <div>
+                <div class="label"><label for="age">Age *</label></div><br>
+                <input class="text-input" type="number" placeholder="Enter your age" min="0" max="100" required>
+            </div>
+            <div>
+                <div class="label"><label for="dropdown-menu">Something *</label></div><br>
+                <select id="dropdown" id="dropdown-menu" required>
+                  <option disabled selected value>Select an option</option>
+                  <option value="foo">foo</option>
+                  <option value="bar">bar</option>
+                  <option value="baz">baz</option>
+                  <option value="quux">quux</option>
+                </select>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Radio *</legend>
+                    <input type="radio" id="radio1" name="set" value="foo" required>
+                    <label for="radio1">Foo</label><br>
+                    <input type="radio" id="radio2" name="set" value="bar">
+                    <label for="radio2">Bar</label><br>
+                    <input type="radio" id="radio3" name="set" value="baz">
+                    <label for="radio3">Baz</label>
+                </fieldset> 
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Checkboxes *</legend>
+                    <input type="checkbox" id="check1" name="set2" value="foobar" required>
+                    <label for="check1">Foobar</label><br>
+                    <input type="checkbox" id="check2" name="set2" value="foobaz">
+                    <label for="check2">Foobaz</label><br>
+                    <input type="checkbox" id="check3" name="set2" value="fooquux">
+                    <label for="check3">Fooquux</label>  
+                </fieldset>
+            </div>
+            <div>
+                <div class="label"><label for="notes">Anything you'd like to tell us?</label></div><br>
+                <textarea id="notes" name="note" placeholder="Write us something..."></textarea>
+            </div>
+            <button id="submit">Submit</button>
+            <p><small><em>Fields marked with an asterisk are required</em></small></p>
+        </form>
+        <p id="disclaimer">Your data will not be sold. As soon as the statistics have been made, your data will be deleted from our servers. Promised!</p>
+    </body>
+</html>
