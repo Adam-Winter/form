@@ -15,6 +15,24 @@
     border-radius: 5px;
 }
 
+@media (max-width: 1000px) {
+    #survey-form {
+        margin: 1% 20% 1% 20%;
+    }
+}
+
+@media (max-width: 800px) {
+    #survey-form {
+        margin: 1% 15% 1% 15%;
+    }
+}
+
+@media (max-width: 500px) {
+    #survey-form {
+        margin: 1% 10% 1% 10%;
+    }
+}
+
 div {
     width: 100%;
     margin: 4% 0% 4% 0%;
