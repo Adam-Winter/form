@@ -41,7 +41,7 @@ div {
 
 input, textarea {
     border-radius: 5px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 10px;
     font-family: 'Montserrat', sans-serif;
     border: 0px;
     background-color: white;
@@ -79,7 +79,7 @@ fieldset {
 }
 
 .text-input, textarea {
-    width: 100%;
+    width: 98%;
 }
 
 .label {
