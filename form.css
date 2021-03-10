@@ -1,7 +1,7 @@
 #main {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    background-color: rgb(38, 8, 63);
+    background-image: linear-gradient(110deg,rgb(145, 0, 189),rgb(41, 7, 68));
     color: white;
 }
 
@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     margin: 1% 25% 1% 25%;
     padding: 2% 5% 2% 5%;
-    background-color:rgba(26, 5, 43, 0.87);
+    background-image: linear-gradient(110deg,rgba(26, 5, 43, 0.7), rgba(70, 1, 1, 0.7));
     border-radius: 5px;
 }
 
@@ -35,7 +35,7 @@
 
 div {
     width: 100%;
-    margin: 4% 0% 4% 0%;
+    margin: 0% 0% 6% 0%;
     text-align: left;
 }
 
@@ -65,7 +65,8 @@ select {
 }
 
 #submit {
-    padding: 3px;
+    font-size: 1.1em;
+    padding: 0.2em;
     border: 0px;
     background-color: rgba(10, 200, 30, 0.8);
     color: white;
@@ -82,5 +83,5 @@ fieldset {
 }
 
 .label {
-    margin: 0.5px;
+    margin: 1% 0% 0% 0%;
 }
