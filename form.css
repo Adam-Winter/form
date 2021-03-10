@@ -41,7 +41,7 @@ div {
 
 input, textarea {
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px 0px 10px 0px;
     font-family: 'Montserrat', sans-serif;
     border: 0px;
     background-color: white;
@@ -51,7 +51,7 @@ input, textarea {
 select {
     width: 100%;
     border-radius: 5px;
-    padding: 3px;
+    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     border: 0px;
     background-color: white;
